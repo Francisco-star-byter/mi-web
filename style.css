@@ -322,6 +322,43 @@ img {
     }
 }
 
+/*ubicacion*/
+    .ubicacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 40px;
+        width: 70%;
+        gap: 1.5rem;
+        box-shadow: 0 0 15px #eee;
+        margin: 0 auto;
+        border-radius: 20px;
+        text-wrap: balance;
+    }
+
+    .ubi-principal {
+        font-size: clamp(0.9rem, 2vw, 1.5rem);
+        font-weight: 700;
+        color: var(--black);
+    }
+
+    .ubicacion p {
+        font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+    }
+
+    .ubi {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .horario {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+/*fin de ubicacion*/
 
 
 /*---------SERVICIOS---------*/
