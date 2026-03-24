@@ -88,7 +88,6 @@ img {
 
 .hero {
     width: 100%;
-    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
 }
 
 .navbar {
@@ -329,7 +328,7 @@ img {
         justify-content: space-around;
         align-items: center;
         padding: 20px 40px;
-        width: 70%;
+        width: 85%;
         gap: 1.5rem;
         box-shadow: 0 0 15px #eee;
         margin: 0 auto;
